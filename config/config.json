@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "todo-dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "fgsomihkmnbeit",
+    "password": "8a18d1f500e4ea86fdd434395f0751cae7a6c48d3e6ca78a2ac99f5365df312c",
+    "database": "d9aa2va5dlha56",
+    "host": "ec2-3-212-75-25.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "use_env_variable": "DATABASE_URL"
+  }
+}
